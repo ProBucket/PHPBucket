@@ -6,7 +6,7 @@
 $date1 = new DateTime("2010-07-06");
 $date2 = new DateTime("2010-07-09");
 $diff = $date2->diff($date1)->format("%a");
-----------------------------------
+
 
 ----------------------------------
 # Difference bitween two days
@@ -21,17 +21,21 @@ $months = floor(($diff - $years * 365*60*60*24) / (30*60*60*24));
 $days = floor(($diff - $years * 365*60*60*24 - $months*30*60*60*24)/ (60*60*24));
 
 printf("%d years, %d months, %d days\n", $years, $months, $days);
-----------------------------------
 
+
+----------------------------------
 # Date formate change 
+----------------------------------
 $oldDate = '2010-03-20'
 $arr = explode('-', $oldDate);
 $newDate = $arr[2].'-'.$arr[1].'-'.$arr[0];
-#end
 
+
+----------------------------------
 # Date formate change 
+----------------------------------
 $originalDate = "2010-03-21";
 $newDate = date("d-m-Y", strtotime($originalDate));
-#end
+
 
 
