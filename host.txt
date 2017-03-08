@@ -1,0 +1,66 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+127.0.0.1       swinburne2.southam.com
+127.0.0.1       latrobe.southam.com
+127.0.0.1       api.southam.com
+
+203.143.72.88   anu.webtogo.info
+203.143.72.88   latrobe.webtogo.info
+127.0.0.1   	latrobe.reedgrad.com
+127.0.0.1   	latrobe.reed.com
+127.0.0.1   	latrobe.reedgraduations.com
+127.0.0.1   	latrobe.reed2.com
+127.0.0.1   	anu.reed2.com
+127.0.0.1   	usc.reed2.com
+203.143.72.88 	stage.reedgraduations.com.au
+203.143.72.86   usc.reedgraduations.com.au
+
+
+#203.143.72.82 uq.reedgraduations.com.au
+203.143.72.81 uq.reedgraduations.com.au
+#203.143.72.59 uq.reedgraduations.com.au
+#203.143.72.81 test.reedgraduations.com.au
+#203.143.72.59 test.reedgraduations.com.au
+
+127.0.0.1       gradpak.com
+127.0.0.1       organization.gradpak.com 
+127.0.0.1       organization2.gradpak.com 
+127.0.0.1       organization45.gradpak.com 
+127.0.0.1       org2.gradpak.com 
+127.0.0.1       org23.gradpak.com 
+127.0.0.1       organization3.gradpak.com 
+127.0.0.1       organization4.gradpak.com 
+127.0.0.1       organization5.gradpak.com 
+127.0.0.1       organization32.gradpak.com 
+127.0.0.1       schoolsn.gradpak.com 
+127.0.0.1      sun.gradpak.com
+127.0.0.1      nanbit.gradpak.com
+
+203.143.72.147 ecommercehowto.info
+203.143.72.147 organization.ecommercehowto.info
+203.143.72.147 abir.ecommercehowto.info
+203.143.72.147 organization2.ecommercehowto.info
+203.143.72.147 nanditabit.ecommercehowto.info
+
+10.0.40.3  cox.webmascot.com
+10.0.40.36  larry.webmascot.com 
